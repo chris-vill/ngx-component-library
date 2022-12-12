@@ -1,5 +1,5 @@
 {
-  "extends": "../projects/my-lib/tsconfig.lib.json",
+  "extends": "../projects/component-library/tsconfig.lib.json",
   "compilerOptions": {
     "types": [
       "node"
@@ -13,7 +13,8 @@
   ],
   "include": [
     "../src/**/*",
-    "../projects/**/*"
+    "../projects/**/*",
+    "../stories/**/*",
   ],
   "files": [
     "./typings.d.ts"
